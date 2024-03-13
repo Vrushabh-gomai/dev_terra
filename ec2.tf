@@ -9,8 +9,8 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
-  shared_config_files      = ["/Users/tf_user/.aws/conf"]
-  shared_credentials_files = ["/Users/tf_user/.aws/creds"]
+  shared_config_files      = ["/home/ubuntu/.aws/conf"]
+  shared_credentials_files = ["/home/ubuntu/.aws/creds"]
   profile                  = "terra-server"
 }
 
